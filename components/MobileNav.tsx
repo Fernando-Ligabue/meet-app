@@ -45,7 +45,7 @@ const MobileNav = () => {
                                             <Link
                                                 href={link.route}
                                                 key={link.label}
-                                                className={cn('flex items-center gap-4 p-4 rounded-lg w-full max-w-60', { 'bg-blue-1': isActive })}>
+                                                className={cn('flex items-center gap-4 p-4 rounded-xl w-full max-w-60', { 'bg-blue-1': isActive })}>
                                                 <Image
                                                     src={link.imgURL}
                                                     alt={link.label}
